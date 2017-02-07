@@ -69,13 +69,13 @@
 
 Файл ответа будет иметь следующий формат. 
 
-Значения тега <ERROR> содержит информацию об ошибке.
+Значения тега <error> содержит информацию об ошибке.
 
 Пример::
 
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
-   <ERROR>"unknown license"</ERROR>
+   <error>"unknown license"</error>
  </root>
 
 
