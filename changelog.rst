@@ -29,29 +29,29 @@ Tеги и атрибуты xml файла в нижнем регистре
 
 Использование текстовых сообщений об ошибке и успешности выполнения задач не обеспечивает однозначность.
 
-* Обозначение успешного результата.
+1. Обозначение успешного результата.
 
  
-	 status code успешного результат - 200 
+ status code успешного результат - 200 
 
-	 
-	 Пример::
-	  
-	 <?xml version="1.0" encoding="UTF-8"?>
-	 <root>
-	   <result>200</result>
-	 </root>
-
-
- * Информирование об ошибках.
+ 
+ Пример::
+  
+ <?xml version="1.0" encoding="UTF-8"?>
+ <root>
+   <result>200</result>
+ </root>
 
 
-	 Пример::
-	  
-	 <?xml version="1.0" encoding="UTF-8"?>
-	 <root>
-	   <error description="License Not Found">401</error>
-	 </root>
+2. Информирование об ошибках.
+
+
+ Пример::
+  
+ <?xml version="1.0" encoding="UTF-8"?>
+ <root>
+   <error description="License Not Found">401</error>
+ </root>
 
 
 
