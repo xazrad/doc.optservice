@@ -32,21 +32,18 @@ Tеги и атрибуты xml файла в нижнем регистре
 
 * Обозначение успешного результата
   
-  status code успешного результат - **200** 
+ status code успешного результат - **200** 
 
-  .. note::
-    Пример:
-        .. code:: xml
-            <?xml version="1.0" encoding="UTF-8"?>
-            <root>
-            <result>200</result>
-            </root>
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+ <root>
+ <result>200</result>
+ </root>
 
 
 * Информирование об ошибках
 
- Пример::
-
+ 
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
  <error description="License Not Found">401</error>
