@@ -34,20 +34,13 @@ Tеги и атрибуты xml файла в нижнем регистре
  
  status code успешного результат - **200** 
 
-.. note:: Test discovery.
+.. note:: Пример.
 
-    Pytest `discovers your tests`_ and has a built-in integration with other
-    testing tools (such as ``nose``, ``unittest`` and ``doctest``). More
-    comprehensive examples and use cases can be found in the `official
-    documentation`_.
+	<?xml version="1.0" encoding="UTF-8"?>
+ 	<root>
+		<result>200</result>
+ 	</root>
 
- 
- Пример::
-  
- <?xml version="1.0" encoding="UTF-8"?>
- <root>
-   <result>200</result>
- </root>
 
 
 **Информирование об ошибках**
