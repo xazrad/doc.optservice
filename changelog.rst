@@ -34,25 +34,21 @@ Tеги и атрибуты xml файла в нижнем регистре
  
  status code успешного результат - **200** 
 
-.. note:: Пример.
+Пример::
 
-	<?xml version="1.0" encoding="UTF-8"?>
- 	<root>
-		<result>200</result>
- 	</root>
-
-
+ <?xml version="1.0" encoding="UTF-8"?>
+ <root>
+  <result>200</result>
+ </root>
 
 **Информирование об ошибках**
 
-
  Пример::
-  
+
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
-   <error description="License Not Found">401</error>
+ <error description="License Not Found">401</error>
  </root>
-
 
 
 tag "description" носит информационный характер, при внедрении стоит опираться на значение тега (status code), данное значение
