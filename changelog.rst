@@ -38,7 +38,7 @@ Tеги и атрибуты xml файла в нижнем регистре
 
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
- <result>200</result>
+   <result>200</result>
  </root>
 
 
@@ -48,7 +48,7 @@ Tеги и атрибуты xml файла в нижнем регистре
 
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
- <error description="License Not Found">401</error>
+   <error description="License Not Found">401</error>
  </root>
 
 
