@@ -29,10 +29,17 @@ Tеги и атрибуты xml файла в нижнем регистре
 
 Использование текстовых сообщений об ошибке и успешности выполнения задач не обеспечивает однозначность.
 
-1. Обозначение успешного результата.
+**Обозначение успешного результата**
 
  
- status code успешного результат - 200 
+ status code успешного результат - **200** 
+
+.. note:: Test discovery.
+
+    Pytest `discovers your tests`_ and has a built-in integration with other
+    testing tools (such as ``nose``, ``unittest`` and ``doctest``). More
+    comprehensive examples and use cases can be found in the `official
+    documentation`_.
 
  
  Пример::
@@ -43,7 +50,7 @@ Tеги и атрибуты xml файла в нижнем регистре
  </root>
 
 
-2. Информирование об ошибках.
+**Информирование об ошибках**
 
 
  Пример::
