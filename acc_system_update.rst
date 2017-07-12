@@ -2,7 +2,7 @@
 Импорт справочников 
 ====================
 
-Пример: http://erp.opt-service.info/acc_system_update/
+Пример: https://erp.opt-service.info/acc_system_update/
 
 Импорт подразумевает выгрузку справочников из Учетной Системы на Сервер.
 
