@@ -35,7 +35,7 @@ e-mail: support@mobexpert.ru, а также можно сгенерироват�
   
  <?xml version="1.0" encoding="UTF-8"?>
  <root>
-   <item login="demo-company" login="demo" password="demo" apikey="00:00:00:00:00" description="1C:Управление Торговлей 10.3"/>
+   <item company="demo-company" login="demo" password="demo" apikey="00:00:00:00:00" description="1C:Управление Торговлей 10.3"/>
  </root>
  
 Формат ответа
