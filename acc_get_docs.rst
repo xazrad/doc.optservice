@@ -68,6 +68,10 @@
 
 Используемые теги:
 
+* <firm_id> - уникальный идентификатор юр. лица поставщика.
+
+* <firm_name> - наименование юр. лица поставщика.
+
 * <customer_id> - уникальный идентификатор покупателя в учетной системе.
 
 * <customer_name> - наименование покупателя.
@@ -79,6 +83,10 @@
 * <procelist_id> - уникальный идентификатор типа цен в учетной системе.
 
 * <pricelist_name> - наименование типа цен.
+
+* <store_id> - уникальный идентификатор склада.
+
+* <store_name> - наименование склада.
 
 * <shop_id> - уникальный идентификатор торговой точки покупателя в учетной системе.
 
@@ -92,13 +100,18 @@
 
 * <comment> - комментарий к документу.
 
-* <total> - общая сумма по документу.
+* <total_weight> - общая сумма по документу.
 
 * <delivery_date> - указанная дата доставки.
 
 * <lastedit_time> - время последнего редактирования документа.
 
 * <vizit_id> - идентификатор визита в рамках которого был оформлен заказ.
+
+* <payment> - тип оплаты.
+
+* <payment_type> - вид типа оплаты.
+
 
 **Строки табличных частей содержатся в теге <items>, подчиненному тегу <doc>**.
 
@@ -133,6 +146,8 @@
    <doc id="204f4de8-3fad-45b6-a4ba-f9d4fab0b828" type="order">
      <properties>
 	   <agent_id>14ed8bae-55bd-11d9-848a-00112f43529a</agent_id>
+	   <firm_id>14ed8bae-55bd-11d9-848a</firm_id>
+	   <firm_name>ООО Поставщик</firm_name>
 	   <comment />
 	   <contract_name>Основной договор</contract_name>
 	   <isbonus>false</isbonus>
@@ -144,7 +159,7 @@
        <vizit_id>76261e1a-d835-400f-924c-61253cb693b2</vizit_id>
 	   <lastedit_time>2013-04-16 15:05:27</lastedit_time>
 	   <pricelist_id>53390e28-481f-11dc-abc6-0815e9b8c48d</pricelist_id>
-	   <total>0</total>
+	   <total_weight>0</total>
 	   <pricelist_name>Розничная</pricelist_name>
 	   <delicery_date>2013-04-16 15:05:27</delicery_date>
 	   <customer_name>ИП "Гришичкин"</customer_name>
@@ -158,6 +173,8 @@
    <doc id="a9b6f3d2-6d4c-466c-95bb-98dc4db10caf" type="order">
      <properties>
 	   <agent_id>14ed8bae-55bd-11d9-848a-00112f43529a</agent_id>
+	   <firm_id>14ed8bae-55bd-11d9-848a</firm_id>
+	   <firm_name>ООО Поставщик</firm_name>
 	   <comment />
 	   <contract_name>Основной договор</contract_name>
 	   <isbonus>false</isbonus>
@@ -169,7 +186,7 @@
 	   <vizit_id>5acb118c-dcd2-47e9-a1a0-e6dfcc8957af</vizit_id>
 	   <lastedit_time>2013-04-16 14:56:44</lastedit_time>
 	   <pricelist_id>53390e28-481f-11dc-abc6-0815e9b8c48d</pricelist_id>
-	   <total>0</total>
+	   <total_weight>0</total>
 	   <pricelist_name>Розничная</pricelist_name>
 	   <delivery_date>2013-04-16 14:56:43</delivery_date>
 	   <customer_name>ИП "Гришичкин"</customer_name>
