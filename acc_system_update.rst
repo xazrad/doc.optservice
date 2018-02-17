@@ -42,6 +42,7 @@
 
    acc_tag_customers.rst
    acc_tag_shops.rst
+   acc_tag_goods_kind.rst
    acc_tag_goods.rst
    acc_tag_agents.rst
    acc_tag_routes.rst
@@ -49,6 +50,7 @@
    acc_tag_pricelists.rst
    acc_tag_firms.rst
    acc_tag_contracts.rst
+   acc_tag_discontskindgoods.rst
    acc_tag_units.rst
    acc_tag_prices.rst
    acc_tag_stocks.rst
