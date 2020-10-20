@@ -57,6 +57,7 @@
    acc_tag_receivabledocs.rst
    acc_tag_saleshistory.rst
    acc_tag_docs.rst
+   acc_tag_informer.rst
 
    
    
