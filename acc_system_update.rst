@@ -59,6 +59,7 @@
    acc_tag_docs.rst
    acc_tag_informer.rst
    acc_tag_promotion.rst
+   acc_tag_inventorygoods.rst
 
    
    
